@@ -55,9 +55,6 @@
     <Filter Include="Source Files\gtracer">
       <UniqueIdentifier>{347a2a07-f0c7-48b7-a33f-1e0344bc4122}</UniqueIdentifier>
     </Filter>
-    <Filter Include="main">
-      <UniqueIdentifier>{0f7bea02-c3cf-4eaa-a400-9811a5bd5a94}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="library\src\behav.cc">
@@ -215,9 +212,6 @@
     </ClCompile>
     <ClCompile Include="library\src\gtracer\nfgame.cc">
       <Filter>Source Files\gtracer</Filter>
-    </ClCompile>
-    <ClCompile Include="src\tools\lcp\lcp.cc">
-      <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

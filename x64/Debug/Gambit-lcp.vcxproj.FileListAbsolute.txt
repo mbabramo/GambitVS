@@ -1,0 +1,2 @@
+C:\Users\Admin\Documents\GitHub\GambitVS\x64\Debug\Gambit-lcp.exe
+C:\Users\Admin\Documents\GitHub\GambitVS\x64\Debug\Gambit-lcp.pdb

@@ -138,4 +138,8 @@ public:
 #include "mixed.h"
 #include "stratitr.h"
 
+#ifndef VERSION
+	#define VERSION "unknown"
+#endif
+
 #endif // LIBGAMBIT_H

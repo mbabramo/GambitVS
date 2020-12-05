@@ -1,0 +1,46 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Gambit-gnm.vcxproj, Gambit-lcp.vcxproj, Gambit-liap.vcxproj, Gambit-logit.vcxproj, Gambit-lp.vcxproj, Gambit-simpdiv.vcxproj, GambitLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  enumpure.cc
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\game.h(843,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\proj_func.h(104,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\agg.h(135,38): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\agg.h(136,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\bagg.h(79,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(104,1): warning C4267: 'return': conversion from 'size_t' to 'Gambit::agg::trie_map<Gambit::agg::AggNumber>::size_type', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(104): message : while compiling class template member function 'Gambit::agg::trie_map<Gambit::agg::AggNumber>::size_type Gambit::agg::trie_map<Gambit::agg::AggNumber>::size(void) const'
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\agg.h(165): message : see reference to function template instantiation 'Gambit::agg::trie_map<Gambit::agg::AggNumber>::size_type Gambit::agg::trie_map<Gambit::agg::AggNumber>::size(void) const' being compiled
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\agg.h(277): message : see reference to class template instantiation 'Gambit::agg::trie_map<Gambit::agg::AggNumber>' being compiled
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(455,1): warning C4267: 'initializing': conversion from 'size_t' to 'Gambit::agg::trie_map<Gambit::agg::AggNumber>::size_type', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(453): message : while compiling class template member function 'void Gambit::agg::trie_map<Gambit::agg::AggNumber>::deleteNodes(Gambit::agg::TrieNode<V> *)'
+          with
+          [
+              V=Gambit::agg::AggNumber
+          ]
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(97): message : see reference to function template instantiation 'void Gambit::agg::trie_map<Gambit::agg::AggNumber>::deleteNodes(Gambit::agg::TrieNode<V> *)' being compiled
+          with
+          [
+              V=Gambit::agg::AggNumber
+          ]
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(487,1): warning C4267: 'initializing': conversion from 'size_t' to 'Gambit::agg::trie_map<Gambit::agg::AggNumber>::size_type', possible loss of data
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(189): message : see reference to function template instantiation 'void Gambit::agg::trie_map<Gambit::agg::AggNumber>::in_order_subtree<UnaryFunction>(UnaryFunction &,Gambit::agg::TrieNode<V> *,bool)' being compiled
+          with
+          [
+              UnaryFunction=Gambit::agg::AGG::input,
+              V=Gambit::agg::AggNumber
+          ]
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\trie_map.h(189): message : see reference to function template instantiation 'void Gambit::agg::trie_map<Gambit::agg::AggNumber>::in_order_subtree<UnaryFunction>(UnaryFunction &,Gambit::agg::TrieNode<V> *,bool)' being compiled
+          with
+          [
+              UnaryFunction=Gambit::agg::AGG::input,
+              V=Gambit::agg::AggNumber
+          ]
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\agg.h(322): message : see reference to function template instantiation 'void Gambit::agg::trie_map<Gambit::agg::AggNumber>::in_order<Gambit::agg::AGG::input>(UnaryFunction,bool)' being compiled
+          with
+          [
+              UnaryFunction=Gambit::agg::AGG::input
+          ]
+C:\Users\Admin\Documents\GitHub\GambitVS\library\include\gambit\agg\agg.h(322): message : see reference to function template instantiation 'void Gambit::agg::trie_map<Gambit::agg::AggNumber>::in_order<Gambit::agg::AGG::input>(UnaryFunction,bool)' being compiled
+          with
+          [
+              UnaryFunction=Gambit::agg::AGG::input
+          ]
+  Gambit-enumpure.vcxproj -> C:\Users\Admin\Documents\GitHub\GambitVS\x64\Debug\Gambit-enumpure.exe

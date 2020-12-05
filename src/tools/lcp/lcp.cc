@@ -29,10 +29,6 @@
 #include "gambit/gambit.h"
 #include "gambit/nash/lcp.h"
 
-#ifndef VERSION
-	#define VERSION "unknown"
-#endif
-
 using namespace Gambit;
 using namespace Gambit::Nash;
 
